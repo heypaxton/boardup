@@ -3,4 +3,6 @@ class Task < ActiveRecord::Base
 
   validates :description, :status, presence: true
 
+ 	scope :find_all, select("*")
+  scope :active, where(status: "active")
 end
