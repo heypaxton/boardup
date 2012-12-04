@@ -2,13 +2,79 @@
 <html>
 <head>
   <title>Boardup</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= stylesheet_link_tag    "application", :media => "screen" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
-
+	<div id="header" class="row">
+		<div class="three columns">
+			<h1>Boardup!</h1>
+		</div>
+		<div class="nine columns">
+			<ul id="nav">
+				<li><a href="<%= root_path %>">Dashboard</a></li>
+				<li><a href="#">Tasks</a></li>
+				<li><a href="#">Tickets</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="row">
+		<div class="nine columns">
+			<%= yield %>
+			<p>
+				Cupcake ipsum dolor sit. Amet cake I 
+				love bonbon liquorice muffin I love 
+				toffee cookie. Soufflé topping liquorice 
+				chupa chups. Cupcake ipsum dolor sit. Amet cake I 
+				love bonbon liquorice muffin I love 
+				toffee cookie. Soufflé topping liquorice 
+				chupa chups. Cupcake ipsum dolor sit. Amet cake I 
+				love bonbon liquorice muffin I love 
+				toffee cookie. Soufflé topping liquorice 
+				chupa chups. Cupcake ipsum dolor sit. Amet cake I 
+				love bonbon liquorice muffin I love 
+				toffee cookie. Soufflé topping liquorice 
+				chupa chups. Cupcake ipsum dolor sit. Amet cake I 
+				love bonbon liquorice muffin I love 
+				toffee cookie. Soufflé topping liquorice 
+				chupa chups.
+			</p>
+			<p>
+				Cupcake ipsum dolor sit. Amet cake I 
+				love bonbon liquorice muffin I love 
+				toffee cookie. Soufflé topping liquorice 
+				chupa chups. Cupcake ipsum dolor sit. Amet cake I 
+				love bonbon liquorice muffin I love 
+				toffee cookie. Soufflé topping liquorice 
+				chupa chups. Cupcake ipsum dolor sit. Amet cake I 
+				love bonbon liquorice muffin I love 
+				toffee cookie. Soufflé topping liquorice 
+				chupa chups. Cupcake ipsum dolor sit. Amet cake I 
+				love bonbon liquorice muffin I love 
+				toffee cookie. Soufflé topping liquorice 
+				chupa chups. Cupcake ipsum dolor sit. Amet cake I 
+				love bonbon liquorice muffin I love 
+				toffee cookie. Soufflé topping liquorice 
+				chupa chups.
+			</p>
+		</div>
+		<div id="sidebar" class"three columns">
+			<h3>Messages</h3>
+			<h6>Latest Message</h6>
+			<p class="message">
+				<span class="username">Chill Cosby:</span>
+				Cupcake ipsum dolor sit. Amet cake I 
+				love bonbon liquorice muffin I love 
+				toffee cookie. Soufflé topping liquorice 
+				chupa chups. <span class="time">30 minutes ago</span>
+			</p>
+			</h3>
+			<h3>Currently online</h3>
+			<ul class="online">
+				<li><a href="username">Chill Cobsby</a></li>
+			</ul>
+		</div>
+	</div>
 </body>
 </html>

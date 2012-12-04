@@ -1,0 +1,40 @@
+@import url(http://fonts.googleapis.com/css?family=Exo:400,700italic|Raleway:900);
+
+body {
+	background: #333;
+	font-family: 'Exo', san-serif;
+}
+
+h1, h2, h3, h4, h5, h6 { font-family: 'Raleway', san-serif; }
+
+h1 { color: #bfcc33; font-size: 42px; }
+
+h2 { 
+		color: #f2f2f2;
+		font-size: 28px;
+		letter-spacing: 0.10em;
+}
+
+h3 { color: #FCC219; font-size: 24px; margin-bottom: 5px; }
+
+h4, h5, h6 { color: #f2f2f2; font-family: 'Exo', san-serif; font-weight: normal; margin-bottom: 10px; }
+
+a { color: #66b2e5; }
+a:hover { color: #FCC219; }
+
+ul#nav {
+	float: right;
+	line-height: 50px;
+	height: 50px;
+}
+
+ul#nav li { display: inline; margin-right: 20px; }
+
+.message {
+	color: #f2f2f2;
+}
+
+.message .username { color: #FF6C00; font-weight: bold;}
+.message .time {
+	color: #66B2E5;
+}
